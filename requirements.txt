@@ -1,0 +1,12 @@
+# Tasks 2-3 (CPU only) and Task 4 helpers. SAM 3.1 itself is installed from source, see README.
+numpy
+pandas
+scipy
+scikit-learn
+opencv-python-headless
+matplotlib
+pillow
+tqdm
+psutil
+yt-dlp
+huggingface_hub

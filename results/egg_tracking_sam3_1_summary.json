@@ -1,0 +1,20 @@
+{
+  "input_video": "/content/egg_spinning_assignment_sam_lowram.mp4",
+  "output_video": "/content/drive/MyDrive/egg_cv_assignment/video_tracking/egg_tracking_sam3_1_stable_ids.mp4",
+  "processed_frames": 120,
+  "video_fps": 2.0,
+  "expected_egg_count": 2,
+  "initialization_frame": 18,
+  "initial_id_assignment": "Left-to-right order in the first frame where both eggs are detected.",
+  "id_policy": "Exactly two persistent IDs are initialised; no new IDs are minted after missed detections.",
+  "unique_ids": [
+    1,
+    2
+  ],
+  "per_id_detected_frames": {
+    "1": 66,
+    "2": 65
+  },
+  "tracking_records": 131,
+  "notes": "IDs can be temporarily unobserved when SAM misses an egg. Appearance and motion association reduce ID switches but cannot guarantee identity through complete occlusion or visually indistinguishable crossings."
+}

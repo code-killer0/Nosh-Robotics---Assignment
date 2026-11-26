@@ -1,0 +1,16 @@
+{
+  "selected_experiment": "E1_hsv_strict",
+  "config": {
+    "method": "hsv",
+    "s_max": 65,
+    "v_min": 165,
+    "open_kernel": 3,
+    "close_kernel": 5,
+    "fill_holes": true,
+    "min_area_fraction": 0.0015,
+    "max_area_fraction": 0.55,
+    "min_solidity": 0.6,
+    "max_aspect_ratio": 3.0,
+    "min_circularity": 0.1
+  }
+}
