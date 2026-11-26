@@ -1,10 +1,12 @@
 # Egg Segmentation and Tracking (CV Intern Task)
 
+Author: Harshit Pathak | Contact: +91 9797607694 | Repo: https://github.com/code-killer0/Nosh-Robotics---Assignment
+
 Segmenting eggs with a pretrained model (SAM 3.1), with a classical image-processing baseline, evaluating the
 baseline against SAM, and tracking two eggs in a video.
 
 - **Full write-up (methods, experiment log, evaluation, analysis):** [`report/CV_Intern_Task_Report.pdf`](report/CV_Intern_Task_Report.pdf)
-- **Task 4 output video (public Google Drive):** `<paste your public Drive link here>`
+- **Task 4 output video (public Google Drive):** [Google Drive link](https://drive.google.com/file/d/1jNhRwYyQ4sS430sz9cG22fTgdEw3g4YX/view?usp=sharing)
 - A copy of the same video is in [`results/egg_tracking_sam3_1_stable_ids.mp4`](results/egg_tracking_sam3_1_stable_ids.mp4)
 
 ## Results at a glance
@@ -101,7 +103,7 @@ All outputs are written to `MyDrive/egg_cv_assignment/` (SAM outputs under `sam3
 3. For memory reasons the video is re-encoded to 2 fps, 640 px wide (120 frames) before SAM 3.1 runs on every frame. The tracker keeps
    two persistent IDs (see the report, Section 6). You can raise `INFERENCE_FPS` in the preprocessing cell if you have more RAM.
 4. Output: `video_tracking/egg_tracking_sam3_1_stable_ids.mp4`, `..._tracks.csv`, `..._summary.json`.
-5. Upload the MP4 to Google Drive, set sharing to **Anyone with the link can view**, and paste the link in the report and at the top of this README.
+5. Upload the MP4 to Google Drive, set sharing to **Anyone with the link can view**, and keep the link in the report and at the top of this README.
 
 ### Outputs to commit
 
